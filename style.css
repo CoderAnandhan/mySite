@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #40514E;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #66BFBF;
+}
+
+hr {
+    border-style: dotted none none;
+    color: grey;
+    width: 6%;
+    border-width: 10px;
+    margin: 100px auto;
+
+
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.profile {
+    width: 30%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.photo{
+    width: 60%;
+    border-radius:50%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 20px 0 20px 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+
+p {
+
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 90px;
+    position: relative;
+    /* width: 100%; */
+    /* height: 100%; */
+
+}
+
+.top-cloud {
+    position: absolute;
+    /* margin: 50px 0 0 300px; */
+    right: 500px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.mountain {
+    width: 500px;
+}
+
+
+.computer-img {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+
+.chilli-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Footer */
+.contact-me {
+    margin: 4px auto 60px;
+    width: 40%;
+    line-height: 2;
+}
+
+/* button */
+.btn{
+    color: #fff;
+    background-color: #11cdd4;
+    padding: 10px;
+    border-radius: 13px;
+    font-size: 20px;
+    top: 30px;
+  
+    position: relative;
+}
+
+
+.bottom-container {
+    background-color: #11cdd4;
+    padding-top: 15px;
+    line-height: 2;
+    color: dimgray;
+}
+
+/* .footer-link{
+    color: #11999E;
+} */
+a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+.finall {
+    font-size: small;
+    color: #EAF6F6;
+
+}
+
+a:hover {
+    color: grey;
+    transition: 0.6s ease;
+}
+
+
+
+@media(max-width:1329) {
+    .top-cloud {
+        right: 100px;
+
+    }
+
+    .skill-row {
+        width: 80%;
+    }
+}
+
+@media(max-width:1154px) {
+    .top-cloud {
+        right: 100px;
+        /* width: 500px; */
+    }
+
+    .bottom-cloud {
+        left: 30px;
+    }
+}
+
+@media(max-width:748px) {
+    .heading {
+        font-size: 60px;
+    }
+
+    .paraheading {
+        font-size: 30px;
+    }
+
+    .bottom-cloud {
+        left: 10px;
+    }
+
+    .top-cloud {
+        right: 50px;
+    }
+}
+
+@media(max-width:1231px) {
+
+    .skill-row {
+        width: 70%;
+    }
+}
+
+@media(max-width:879px) {
+
+    .top-cloud {
+        right: 100px;
+    }
+    .h3head{
+        line-height: 1.6;
+    }
+    .profile{
+        width: 90%;
+    }
+    hr{
+        width: 25%%;
+    }
+
+}
+
+@media(max-width:544px) {
+
+    .mountain{
+        width: 200px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+
+    .paraheading{
+        font-size: 20px;
+    }
+    .top-cloud{
+        width: 100px;
+    }
+    .bottom-cloud{
+        width: 100px;
+        top: 60%;
+    }
+
+    .btn{
+        font-size: 16px;
+        color: #40514E;
+    }
+
+    .contact-me{
+        width: 80%;
+    }
+    hr{
+        width: 20%;
+    }
+}
